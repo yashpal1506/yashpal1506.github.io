@@ -323,3 +323,50 @@ transition:.4s;
 transform:scale(1.03);
 
 }
+/*==========================
+Current Research
+==========================*/
+
+#current-research{
+
+padding:80px 10%;
+
+background:#f8f9fc;
+
+}
+
+.research-box{
+
+background:white;
+
+padding:35px;
+
+border-radius:18px;
+
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.research-box h3{
+
+color:#0B3D91;
+
+margin-bottom:20px;
+
+}
+
+.research-box ul{
+
+margin-top:20px;
+
+padding-left:20px;
+
+}
+
+.research-box li{
+
+margin:10px 0;
+
+font-size:18px;
+
+}
