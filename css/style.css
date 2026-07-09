@@ -370,3 +370,70 @@ margin:10px 0;
 font-size:18px;
 
 }
+/*==========================
+Education Timeline
+==========================*/
+
+.timeline{
+
+margin-top:50px;
+
+border-left:5px solid #0B3D91;
+
+padding-left:35px;
+
+}
+
+.timeline-item{
+
+position:relative;
+
+margin-bottom:45px;
+
+background:white;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.timeline-item::before{
+
+content:'';
+
+position:absolute;
+
+left:-46px;
+
+top:28px;
+
+width:20px;
+
+height:20px;
+
+background:#0B3D91;
+
+border-radius:50%;
+
+border:5px solid white;
+
+}
+
+.timeline-item h3{
+
+color:#0B3D91;
+
+margin-bottom:8px;
+
+}
+
+.timeline-item h4{
+
+color:#666;
+
+margin-bottom:10px;
+
+}
