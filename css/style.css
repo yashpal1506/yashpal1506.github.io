@@ -490,3 +490,64 @@ margin-bottom:10px;
 color:#555;
 
 }
+/*==========================
+Workshops
+==========================*/
+
+.workshop-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.workshop-card{
+
+background:white;
+
+padding:30px;
+
+border-radius:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.workshop-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+
+.workshop-card h3{
+
+color:#0B3D91;
+
+margin-bottom:10px;
+
+}
+
+.workshop-card h4{
+
+color:#555;
+
+margin-bottom:15px;
+
+font-weight:600;
+
+}
+
+.workshop-card p{
+
+color:#444;
+
+}
