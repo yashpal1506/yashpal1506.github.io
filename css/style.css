@@ -150,3 +150,82 @@ footer{
     margin-top:50px;
 
 }
+/* ================= NAVBAR ================= */
+
+.navbar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:#0B3D91;
+
+padding:18px 60px;
+
+color:white;
+
+}
+
+.navbar ul{
+
+display:flex;
+
+list-style:none;
+
+gap:30px;
+
+}
+
+.navbar a{
+
+text-decoration:none;
+
+color:white;
+
+font-weight:600;
+
+}
+
+.navbar a:hover{
+
+color:#FFD54F;
+
+}
+
+/* ================= HERO ================= */
+
+.hero{
+
+padding:80px;
+
+text-align:center;
+
+background:#EAF2FF;
+
+}
+
+.hero h1{
+
+font-size:60px;
+
+color:#0B3D91;
+
+}
+
+.hero h2{
+
+color:#444;
+
+margin-top:10px;
+
+}
+
+.hero p{
+
+margin-top:20px;
+
+font-size:20px;
+
+}
