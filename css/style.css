@@ -229,3 +229,42 @@ margin-top:20px;
 font-size:20px;
 
 }
+/* ================= Buttons ================= */
+
+.hero-buttons{
+
+margin-top:40px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+padding:14px 28px;
+
+background:#0B3D91;
+
+color:white;
+
+text-decoration:none;
+
+margin:10px;
+
+border-radius:8px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.btn:hover{
+
+background:#FFD54F;
+
+color:black;
+
+transform:translateY(-3px);
+
+}
